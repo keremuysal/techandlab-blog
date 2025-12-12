@@ -1,6 +1,6 @@
 ---
 title: "Merhaba Dünya: TechAndLab Blog Yayında!"
-date: 2025-12-12 15:50:00 +0300
+date: 2025-12-12 15:00:00 +0300
 categories: [Duyuru, Genel]
 tags: [baslangic, techandlab]
 ---
