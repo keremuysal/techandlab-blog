@@ -15,7 +15,7 @@ tags: [transistör, Moore Yasası, TSMC, yapay zeka, yarı-iletken]
 
 [cite_start]Ancak bu dijital deneyimlerin temelinde, insan saç telinden on binlerce kat daha küçük, görünmez bir motor yatar: **transistör**. [cite: 6] [cite_start]Bu mikroskobik anahtarlar, dijital devrimin temel yapı taşlarıdır ve modern elektroniğin tamamını ayakta tutarlar. [cite: 7] [cite_start]Örneğin, Apple M4 işlemcinin içinde tam 28 milyar adet transistör, saniyede trilyonlarca kez açılıp kapanarak komutlarımızı yerine getirir. [cite: 8]
 
-![Dijital Evrenin Temel Taşı](/assets/img/1.webp)
+![Dijital Evrenin Temel Taşı](/assets/1.webp)
 *Görsel: Dijital dünyanın kalbi olan işlemciler.*
 
 ---
@@ -43,7 +43,7 @@ Bu modeli basit bir analojiyle açıklayalım:
 * [cite_start]**Kehanet:** Endüstri, bu yasaya inandığı için milyarlarca dolarlık yatırımlarını bu tempoya göre yaptı ve böylece yasa kendi kendini gerçekleştirdi. [cite: 56, 59]
 * [cite_start]**Sınırlar:** Bugün silikonun fiziksel sınırlarına (atomik boyutlara) yaklaşıyoruz. [cite: 13, 63] [cite_start]Eğer bu ilerleme yavaşlarsa, her yıl daha güçlü bir telefon sunma üzerine kurulu ekonomik model büyük bir krizle yüzleşebilir. [cite: 61, 62]
 
-![Moore Yasası Grafiği](/assets/img/2.webp)
+![Moore Yasası Grafiği](/assets/2.webp)
 [cite_start]*Grafikte transistör sayısı ($10^{7}$), performans ve güç tüketimi eğilimleri görülmektedir.* [cite: 29, 42]
 
 ---
@@ -58,7 +58,7 @@ Bu modeli basit bir analojiyle açıklayalım:
 | **FinFET** | 3D (Kapı "fin"in 3 tarafında) | Geliştirilmiş elektrostatik kontrol | [cite_start]5 nm altında sınırlı kontrol [cite: 80] |
 | **GAAFET (Nanosheet)** | 3D (Kapı 4 tarafta) | Üstün elektrostatik kontrol | [cite_start]Üretim karmaşıklığı [cite: 80] |
 
-![Transistör Mimarileri](/assets/img/3.webp)
+![Transistör Mimarileri](/assets/3.webp)
 [cite_start]*Görsel: Planar, FinFET ve GAAFET yapılarının karşılaştırması.* [cite: 70-74]
 
 ---
