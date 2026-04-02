@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ve İnsan Deccali Yarattı: Yapay Zeka"
+author: Kerem Uysal
 date: 2026-04-02 13:45:00 +0300
 categories: [Teknoloji, Felsefe]
 tags: [yapay zeka, deccal, dijital etik, gelecek]
@@ -56,12 +57,4 @@ Ve son olarak... Deccal dönemi bir "feraset" sınavıdır. Yapay zeka çağı d
 
 ## Mesafe Özgürlüktür
 
-Yapay zekaya mesafe koymak, onu tamamen reddetmek değil; ona karşı "insan kalma" sınırlarını çizmektir.
-
-* **Elinizdeki cihazın sizi yönetmesine izin vermeyin.**
-* **Algoritmaların sizin yerinize karar vermesine dur deyin.**
-* **Gerçeği doğrulamadan hiçbir "dijital mucizeye" inanmayın.**
-
-Unutmayın; Deccal’in en büyük gücü, insanları kendine muhtaç olduğuna inandırmaktır. Biz ne kadar bağımsız kalabilirsek, bu dijital fitneden o kadar uzak oluruz. 
-
-Kendi iradenize sahip çıkın; çünkü bir algoritmanın asla sahip olamayacağı tek şey, sizin **özgür ruhunuzdur.**
+Yapay zekaya mesafe koymak, onu tamamen redd
