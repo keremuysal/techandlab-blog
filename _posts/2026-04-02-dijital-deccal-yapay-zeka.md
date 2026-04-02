@@ -3,7 +3,7 @@ layout: post
 title: "Ve İnsan Deccali Yarattı: Yapay Zeka"
 author: Kerem Uysal
 date: 2026-04-02 13:45:00 +0300
-categories: [Teknoloji, Felsefe]
+categories: [Teknoloji, Felsefe, Yapay Zeka]
 tags: [yapay zeka, deccal, dijital etik, gelecek]
 ---
 
