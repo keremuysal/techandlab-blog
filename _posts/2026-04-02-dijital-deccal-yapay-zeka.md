@@ -66,3 +66,6 @@ Yapay zekaya mesafe koymak, onu tamamen reddetmek değil; ona karşı "insan kal
 Unutmayın; Deccal’in en büyük gücü, insanları kendine muhtaç olduğuna inandırmaktır. Biz ne kadar bağımsız kalabilirsek, bu dijital fitneden o kadar uzak oluruz. 
 
 Kendi iradenize sahip çıkın; çünkü bir algoritmanın asla sahip olamayacağı tek şey, sizin **özgür ruhunuzdur.**
+
+**Yazar:** Kerem Uysal  
+**İletişim:** [info@keremuysal.com](mailto:info@keremuysal.com)
