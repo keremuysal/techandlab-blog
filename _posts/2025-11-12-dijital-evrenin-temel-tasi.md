@@ -4,7 +4,7 @@ title: "Dijital Evrenin Temel Taşı: Transistör Savaşları, Yapay Zekanın Y�
 date: 2025-11-12 10:00:00 +0300
 last_modified_at: 2026-02-18 10:00:00 +0300
 author: "Kerem Uysal"
-categories: teknoloji
+categories: [Teknoloji, Yapay Zeka]
 tags: [transistör, Moore Yasası, TSMC, yapay zeka, yarı-iletken]
 ---
 
