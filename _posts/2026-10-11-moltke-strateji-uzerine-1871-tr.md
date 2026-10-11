@@ -4,6 +4,7 @@ date: 2026-10-11 12:00:00 +0300
 categories: [Strateji, Tarih, Felsefe]
 tags: [moltke, strateji, über-strategie, sistem-düşüncesi, tarih]
 lang: tr-TR
+ref: moltke-1871
 description: "Helmuth von Moltke'nin 1871 tarihli ünlü 'Über Strategie' (Strateji Üzerine) makalesinin mühendislik ve strateji perspektifinden analizi ile Türkçe tam çevirisi."
 ---
 

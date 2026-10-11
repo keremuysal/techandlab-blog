@@ -1,0 +1,142 @@
+<!-- The Side Bar -->
+
+{% if include.lang == 'en' %}
+  {% assign home_url = '/en/' %}
+  {% assign localized_tagline = 'T&L | Tech&Lab | From Idea to Reality, Beyond the Digital' %}
+{% elsif include.lang == 'de-DE' %}
+  {% assign home_url = '/de/' %}
+  {% assign localized_tagline = 'T&L | Tech&Lab | Von der Idee zur Realität, jenseits des Digitalen' %}
+{% else %}
+  {% assign home_url = '/' %}
+  {% assign localized_tagline = site.tagline %}
+{% endif %}
+
+{% assign tr_target = '/' %}
+{% assign en_target = '/en/' %}
+{% assign de_target = '/de/' %}
+
+{% if page.ref and page.ref != 'home' %}
+  {% assign matching_posts = site.posts | where: 'ref', page.ref %}
+  {% for mp in matching_posts %}
+    {% if mp.lang == 'tr-TR' or mp.lang == nil %}
+      {% assign tr_target = mp.url %}
+    {% elsif mp.lang == 'en' %}
+      {% assign en_target = mp.url %}
+    {% elsif mp.lang == 'de-DE' %}
+      {% assign de_target = mp.url %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+  <header class="profile-wrapper">
+    <a href="{{ home_url | relative_url }}" id="avatar" class="rounded-circle">
+      {%- if site.avatar != empty and site.avatar -%}
+        {%- capture avatar_url -%}
+          {% include media-url.html src=site.avatar %}
+        {%- endcapture -%}
+        <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+      {%- endif -%}
+    </a>
+
+    <a class="site-title d-block" href="{{ home_url | relative_url }}">{{ site.title }}</a>
+    <p class="site-subtitle fst-italic mb-2">{{ localized_tagline }}</p>
+
+    <!-- Global Language Switcher in Sidebar -->
+    <div class="d-inline-flex align-items-center gap-1 mt-1 px-2 py-1 rounded border small">
+      <a href="{{ tr_target | relative_url }}" class="px-1 text-decoration-none {% if include.lang == 'tr-TR' %}fw-bold{% else %}text-muted{% endif %}" title="Türkçe">🇹🇷 TR</a>
+      <span class="text-muted">·</span>
+      <a href="{{ en_target | relative_url }}" class="px-1 text-decoration-none {% if include.lang == 'en' %}fw-bold{% else %}text-muted{% endif %}" title="English">🇬🇧 EN</a>
+      <span class="text-muted">·</span>
+      <a href="{{ de_target | relative_url }}" class="px-1 text-decoration-none {% if include.lang == 'de-DE' %}fw-bold{% else %}text-muted{% endif %}" title="Deutsch">🇩🇪 DE</a>
+    </div>
+  </header>
+  <!-- .profile-wrapper -->
+
+  <nav class="flex-column flex-grow-1 w-100 ps-0">
+    <ul class="nav">
+      <!-- home -->
+      <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+        <a href="{{ home_url | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-home"></i>
+          <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+        </a>
+      </li>
+      <!-- the real tabs -->
+      {% for tab in site.tabs %}
+        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+          <a href="{{ tab.url | relative_url }}" class="nav-link">
+            <i class="fa-fw {{ tab.icon }}"></i>
+            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+
+            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+    {% unless site.theme_mode %}
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+        <i class="fas fa-adjust"></i>
+      </button>
+
+      {% if site.data.contact.size > 0 %}
+        <span class="icon-border"></span>
+      {% endif %}
+    {% endunless %}
+
+    {% for entry in site.data.contact %}
+      {%- assign url = null -%}
+
+      {% case entry.type %}
+        {% when 'github', 'twitter' %}
+          {%- unless site[entry.type].username -%}
+            {%- continue -%}
+          {%- endunless -%}
+          {%- capture url -%}
+            https://{{ entry.type }}.com/{{ site[entry.type].username }}
+          {%- endcapture -%}
+        {% when 'email' %}
+          {%- unless site.social.email -%}
+            {%- continue -%}
+          {%- endunless -%}
+          {%- assign email = site.social.email | split: '@' -%}
+          {%- capture url -%}
+            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+          {%- endcapture -%}
+        {% when 'rss' %}
+          {% assign url = '/feed.xml' | relative_url %}
+        {% else %}
+          {% assign url = entry.url %}
+      {% endcase %}
+
+      {% if url %}
+        <a
+          href="{{ url }}"
+          aria-label="{{ entry.type }}"
+          {% assign link_types = '' %}
+
+          {% unless entry.noblank %}
+            target="_blank"
+            {% assign link_types = 'noopener noreferrer' %}
+          {% endunless %}
+
+          {% if entry.type == 'mastodon' %}
+            {% assign link_types = link_types | append: ' me' | strip %}
+          {% endif %}
+
+          {% unless link_types == empty %}
+            rel="{{ link_types }}"
+          {% endunless %}
+        >
+          <i class="{{ entry.icon }}"></i>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <!-- .sidebar-bottom -->
+</aside>
+<!-- #sidebar -->

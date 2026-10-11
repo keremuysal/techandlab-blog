@@ -1,0 +1,27 @@
+<!-- Global Multi-Language SEO (hreflang & OpenGraph locales) -->
+{% if page.ref == 'home' or page.layout == 'home' %}
+  <link rel="alternate" hreflang="tr" href="{{ '/' | absolute_url }}" />
+  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}" />
+  <link rel="alternate" hreflang="de" href="{{ '/de/' | absolute_url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ '/en/' | absolute_url }}" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="de_DE" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+{% elsif page.ref %}
+  {% assign translations = site.posts | where: 'ref', page.ref %}
+  {% assign default_url = page.url | absolute_url %}
+  {% for t in translations %}
+    {% if t.lang == 'en' %}
+      {% assign default_url = t.url | absolute_url %}
+      <link rel="alternate" hreflang="en" href="{{ t.url | absolute_url }}" />
+    {% elsif t.lang == 'de-DE' %}
+      <link rel="alternate" hreflang="de" href="{{ t.url | absolute_url }}" />
+    {% else %}
+      <link rel="alternate" hreflang="tr" href="{{ t.url | absolute_url }}" />
+    {% endif %}
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ default_url }}" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="de_DE" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+{% endif %}

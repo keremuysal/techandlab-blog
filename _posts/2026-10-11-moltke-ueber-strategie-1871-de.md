@@ -1,10 +1,10 @@
 ---
 title: "Kein Operationsplan reicht über das erste Zusammentreffen hinaus: Helmuth von Moltkes Aufsatz 'Über Strategie' (1871)"
 date: 2026-10-11 12:00:00 +0300
-categories: [Strateji, Tarih, Felsefe]
+categories: [Strategie, Geschichte, Philosophie]
 tags: [moltke, strategie, über-strategie, systemtheorie, geschichte]
 lang: de-DE
-hidden: true
+ref: moltke-1871
 description: "Analyse und vollständiger Originaltext (Ausgabe 1900, Band II.2, S. 287–293) von Helmuth von Moltkes berühmtem Aufsatz 'Über Strategie' aus dem Jahre 1871."
 ---
 

@@ -1,11 +1,12 @@
-<!-- Get 5 last posted/updated posts (excluding hidden translations) -->
+<!-- Get 5 last posted/updated posts matching current language -->
 
 {% assign MAX_SIZE = 5 %}
 
 {% assign all_list = '' | split: '' %}
 
 {% for post in site.posts %}
-  {% if post.hidden == true %}
+  {% assign post_lang = post.lang | default: 'tr-TR' %}
+  {% if post_lang != include.lang %}
     {% continue %}
   {% endif %}
 

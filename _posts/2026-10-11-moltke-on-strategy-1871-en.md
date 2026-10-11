@@ -1,10 +1,10 @@
 ---
 title: "No Plan Survives First Contact: Helmuth von Moltke’s 1871 Essay 'On Strategy' (Über Strategie)"
 date: 2026-10-11 12:00:00 +0300
-categories: [Strateji, Tarih, Felsefe]
+categories: [Strategy, History, Philosophy]
 tags: [moltke, strategy, on-strategy, über-strategie, systems-thinking, history]
 lang: en
-hidden: true
+ref: moltke-1871
 description: "An engineering and strategic analysis of Helmuth von Moltke's famous 1871 essay 'On Strategy' (Über Strategie), alongside the complete English translation from the 1900 edition."
 ---
 

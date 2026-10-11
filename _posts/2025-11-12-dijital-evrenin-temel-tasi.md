@@ -6,7 +6,13 @@ last_modified_at: 2026-02-18 10:00:00 +0300
 author: "Kerem Uysal"
 categories: [Teknoloji, Yapay Zeka]
 tags: [transistör, Moore Yasası, TSMC, yapay zeka, yarı-iletken]
+lang: tr-TR
+ref: transistor-wars
+description: "Modern dijital dünyanın kalbi olan transistörlerin evrimi, TSMC'nin saf dökümhane modeli, Moore Yasası ve GAAFET mimarisi."
 ---
+
+> 🌐 **Dil / Language / Sprache:** **🇹🇷 Türkçe** | [🇬🇧 English](/posts/foundation-of-the-digital-universe-transistor-wars-en/) | [🇩🇪 Deutsch](/posts/grundstein-des-digitalen-universums-transistorkriege-de/)
+{: .prompt-info }
 
 Selamlar, ilk bloguma hoş geldiniz. Arasıra sitemde blog paylaşmayı düşünüyorum; bülten açmamı istiyorsanız bana ulaşmanız yeterli olur.
 

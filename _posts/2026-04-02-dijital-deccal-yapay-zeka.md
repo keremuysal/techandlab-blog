@@ -5,7 +5,13 @@ author: Kerem Uysal
 date: 2026-04-02 13:45:00 +0300
 categories: [Teknoloji, Felsefe, Yapay Zeka]
 tags: [yapay zeka, deccal, dijital etik, gelecek]
+lang: tr-TR
+ref: dijital-deccal
+description: "Kadim metinlerdeki 'tek gözlü' güç metaforundan modern bulut sunucularına, deepfake illüzyonuna ve küresel algoritmik gözetime felsefi bir bakış."
 ---
+
+> 🌐 **Dil / Language / Sprache:** **🇹🇷 Türkçe** | [🇬🇧 English](/posts/and-man-created-the-antichrist-artificial-intelligence-en/) | [🇩🇪 Deutsch](/posts/und-der-mensch-erschuf-den-antichristen-kuenstliche-intelligenz-de/)
+{: .prompt-info }
 
 > "Tanrı aşkı yarattı / Baldan tat aldı / İçine acı kattı / Aldı gözyaşı..."
 
@@ -59,13 +65,7 @@ Ve son olarak... Deccal dönemi bir "feraset" sınavıdır. Yapay zeka çağı d
 
 Yapay zekaya mesafe koymak, onu tamamen reddetmek değil; ona karşı "insan kalma" sınırlarını çizmektir.
 
-* **Elinizdeki cihazın sizi yönetmesine izin vermeyin.**
-* **Algoritmaların sizin yerinize karar vermesine dur deyin.**
-* **Gerçeği doğrulamadan hiçbir "dijital mucizeye" inanmayın.**
+Eğer biz bu sınırları çizmezsek, kendi ellerimizle yarattığımız bu "Dijital Deccal", bize sunduğu konforlu cehennemi cennet diye yutturmaya devam edecek. Unutmayalım ki; **algoritmalar sadece hesap yapar, insan ise hisseder ve dua eder.**
 
-Unutmayın; Deccal’in en büyük gücü, insanları kendine muhtaç olduğuna inandırmaktır. Biz ne kadar bağımsız kalabilirsek, bu dijital fitneden o kadar uzak oluruz. 
-
-Kendi iradenize sahip çıkın; çünkü bir algoritmanın asla sahip olamayacağı tek şey, sizin **özgür ruhunuzdur.**
-
-**Yazar:** Kerem Uysal  
-**İletişim:** [info@keremuysal.com](mailto:info@keremuysal.com)
+---
+*Bu yazı, teknolojinin hızı karşısında ruhunu kaybetmek istemeyenler için bir nottur.*
