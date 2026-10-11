@@ -1,43 +1,49 @@
-# Chirpy Starter
+# Tech&Lab Blog (blog.techandlab.com)
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+> **Fikirden Gerçeğe, Dijitalin Ötesinde — Resmi Blog & Düşünce Platformu**  
+> Canlı Blog: [https://blog.techandlab.com/](https://blog.techandlab.com/)  
+> Ana Şirket Sitesi: [https://www.techandlab.com/](https://www.techandlab.com/)
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+---
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## 📖 Blog Hakkında
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+Tech&Lab Blog; yazılım mühendisliği, gömülü sistemler, radar/RF teknolojileri, biyomühendislik, yapay zeka ve sistem felsefesi/stratejisi üzerine derinlemesine makaleler, araştırma notları ve tarihsel metin analizleri yayımlayan çok dilli bir bilgi merkezidir.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+## ✨ Öne Çıkan Özellikler
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+* **3 Dilde Yayın Desteği (i18n):**
+  * Türkçe (TR) · İngilizce (EN) · Almanca (DE)
+  * Otomatik `ref` bazlı diller arası makale eşleşmesi ve kenar çubuğunda anlık dil değiştirici (TR / EN / DE pill UI).
+  * Tüm diller için Google uyumlu `hreflang` ve `og:locale:alternate` etiketleri.
+* **Akademik & Mühendislik Edisyonları (PDF):**
+  * Makalelerin orijinal arşiv baskıları için özel PDF edisyonları (Türkçe, İngilizce, Almanca).
+* **Modern & Hızlı Okuma Deneyimi:**
+  * Jekyll + Chirpy tema altyapısı.
+  * Karanlık / Aydınlık mod desteği.
+  * PWA ve çevrimdışı önbellekleme yeteneği.
+  * Kod bloklarında sözdizimi vurgulama (syntax highlighting), içindekiler tablosu (TOC) ve okuma süresi hesaplama.
+* **SEO & Sosyal Paylaşım:**
+  * Open Graph, Twitter Cards ve yapısal metadata entegrasyonu.
+  * Otomatik Atom RSS feed (`/feed.xml`) ve arama motoru site haritası (`/sitemap.xml`).
 
-## Usage
+## ✍️ Yayımlanan Makaleler & Konular
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+* **Strateji & Sistem Düşüncesi:** Helmuth von Moltke'nin 1871 *Über Strategie* (Strateji Üzerine) makalesi analizi ve tam metin çevirisi (TR / EN / DE).
+* **Yapay Zeka & Gelecek:** Dijital Deccal: Yapay Zeka ve İnsanlığın Dönüm Noktası (TR / EN / DE).
+* **Donanım & Yarıiletkenler:** Dijital Evrenin Temel Taşı: Transistör Savaşları (TR / EN / DE).
+* **Duyurular & Laboratuvar Günlükleri:** Tech&Lab Blog açılış manifestosu (TR / EN / DE).
 
-## Contributing
+## 🛠️ Altyapı & Dağıtım
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+* **Statik Site Üreteci:** Jekyll & Ruby 3.3
+* **Tema:** [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+* **Sürekli Dağıtım (CI/CD):** GitHub Actions (`pages-deploy.yml`)
+* **Barındırma:** GitHub Pages (`CNAME: blog.techandlab.com`)
 
-## License
+## 📬 İletişim & Yazarlar
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+* **Yazar / Kurucu:** Kerem Uysal ([keremuysal.com](https://keremuysal.com))
+* **E-posta:** [info@techandlab.com](mailto:info@techandlab.com)
+* **X / Twitter:** [@keremuysaljpg](https://twitter.com/keremuysaljpg)
+* **GitHub:** [@keremuysal](https://github.com/keremuysal)

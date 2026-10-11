@@ -1,0 +1,5 @@
+# robots.txt for Tech&Lab Blog (blog.techandlab.com)
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.techandlab.com/sitemap.xml
