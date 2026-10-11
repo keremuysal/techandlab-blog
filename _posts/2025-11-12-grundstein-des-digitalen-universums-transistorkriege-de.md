@@ -11,7 +11,7 @@ ref: transistor-wars
 description: "Die Evolution der Transistoren als Herzstück der modernen digitalen Welt: das Pure-Play-Foundry-Modell von TSMC, das Mooresche Gesetz und GAAFET-Architekturen."
 ---
 
-> 🌐 **Sprache / Language / Dil:** [🇹🇷 Türkçe](/posts/dijital-evrenin-temel-tasi/) | [🇬🇧 English](/posts/foundation-of-the-digital-universe-transistor-wars-en/) | **🇩🇪 Deutsch**
+> 🌐 **Sprache / Language / Dil:** [Türkçe](/posts/dijital-evrenin-temel-tasi/) | [English](/posts/foundation-of-the-digital-universe-transistor-wars-en/) | **Deutsch**
 {: .prompt-info }
 
 Hallo und herzlich willkommen zu meinem ersten Blogbeitrag. Ich plane, hier regelmäßig Beiträge zu veröffentlichen; falls Sie sich einen Newsletter wünschen, schreiben Sie mir gerne.

@@ -8,10 +8,10 @@ ref: moltke-1871
 description: "An engineering and strategic analysis of Helmuth von Moltke's famous 1871 essay 'On Strategy' (Über Strategie), alongside the complete English translation from the 1900 edition."
 ---
 
-> 🌐 **Language / Dil / Sprache:** [🇹🇷 Türkçe](/posts/moltke-strateji-uzerine-1871-tr/) | **🇬🇧 English** | [🇩🇪 Deutsch (Original 1900)](/posts/moltke-ueber-strategie-1871-de/)
+> 🌐 **Language / Dil / Sprache:** [Türkçe](/posts/moltke-strateji-uzerine-1871-tr/) | **English** | [Deutsch (Original 1900)](/posts/moltke-ueber-strategie-1871-de/)
 {: .prompt-info }
 
-> 📄 **Download PDF:** [🇬🇧 English PDF](/assets/pdf/moltke_on_strategy_1871_en.pdf) | [🇹🇷 Türkçe PDF](/assets/pdf/moltke_strateji_uzerine_1871_tr.pdf) | [🇩🇪 Deutsch PDF](/assets/pdf/moltke_ueber_strategie_1871.pdf)
+> 📄 **Download PDF:** [English PDF](/assets/pdf/moltke_on_strategy_1871_en.pdf) | [Türkçe PDF](/assets/pdf/moltke_strateji_uzerine_1871_tr.pdf) | [Deutsch PDF](/assets/pdf/moltke_ueber_strategie_1871.pdf)
 {: .prompt-tip }
 
 Across systems engineering, software architecture, artificial intelligence, and modern strategy, one maxim echoes louder than almost any other: *"No plan survives first contact with the enemy."*

@@ -10,7 +10,7 @@ ref: dijital-deccal
 description: "A philosophical reflection on the ancient metaphor of the 'one-eyed' power, modern cloud servers, deepfake illusions, and the global algorithmic panopticon."
 ---
 
-> 🌐 **Language / Dil / Sprache:** [🇹🇷 Türkçe](/posts/dijital-deccal-yapay-zeka/) | **🇬🇧 English** | [🇩🇪 Deutsch](/posts/und-der-mensch-erschuf-den-antichristen-kuenstliche-intelligenz-de/)
+> 🌐 **Language / Dil / Sprache:** [Türkçe](/posts/dijital-deccal-yapay-zeka/) | **English** | [Deutsch](/posts/und-der-mensch-erschuf-den-antichristen-kuenstliche-intelligenz-de/)
 {: .prompt-info }
 
 > "God created love / Took sweetness from honey / Mixed sorrow within it / And took tears..."

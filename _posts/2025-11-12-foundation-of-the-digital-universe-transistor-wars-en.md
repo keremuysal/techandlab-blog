@@ -11,7 +11,7 @@ ref: transistor-wars
 description: "The evolution of transistors at the heart of the modern digital world: TSMC's pure-play foundry model, Moore's Law, and GAAFET nanosheet architectures."
 ---
 
-> 🌐 **Language / Dil / Sprache:** [🇹🇷 Türkçe](/posts/dijital-evrenin-temel-tasi/) | **🇬🇧 English** | [🇩🇪 Deutsch](/posts/grundstein-des-digitalen-universums-transistorkriege-de/)
+> 🌐 **Language / Dil / Sprache:** [Türkçe](/posts/dijital-evrenin-temel-tasi/) | **English** | [Deutsch](/posts/grundstein-des-digitalen-universums-transistorkriege-de/)
 {: .prompt-info }
 
 Greetings, and welcome to my first blog post. I plan to share articles here periodically; if you would like me to launch a newsletter, feel free to reach out.

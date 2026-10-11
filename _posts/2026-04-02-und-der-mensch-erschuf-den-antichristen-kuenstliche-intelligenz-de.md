@@ -10,7 +10,7 @@ ref: dijital-deccal
 description: "Eine philosophische Betrachtung über die antike Metapher der 'einäugigen' Macht, moderne Cloud-Server, Deepfake-Illusionen und das globale algorithmische Panoptikum."
 ---
 
-> 🌐 **Sprache / Language / Dil:** [🇹🇷 Türkçe](/posts/dijital-deccal-yapay-zeka/) | [🇬🇧 English](/posts/and-man-created-the-antichrist-artificial-intelligence-en/) | **🇩🇪 Deutsch**
+> 🌐 **Sprache / Language / Dil:** [Türkçe](/posts/dijital-deccal-yapay-zeka/) | [English](/posts/and-man-created-the-antichrist-artificial-intelligence-en/) | **Deutsch**
 {: .prompt-info }
 
 > „Gott erschuf die Liebe / Nahm die Süße vom Honig / Mischte Schmerz hinein / Und nahm die Tränen…“

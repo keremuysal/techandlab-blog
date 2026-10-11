@@ -10,7 +10,7 @@ ref: dijital-deccal
 description: "Kadim metinlerdeki 'tek gözlü' güç metaforundan modern bulut sunucularına, deepfake illüzyonuna ve küresel algoritmik gözetime felsefi bir bakış."
 ---
 
-> 🌐 **Dil / Language / Sprache:** **🇹🇷 Türkçe** | [🇬🇧 English](/posts/and-man-created-the-antichrist-artificial-intelligence-en/) | [🇩🇪 Deutsch](/posts/und-der-mensch-erschuf-den-antichristen-kuenstliche-intelligenz-de/)
+> 🌐 **Dil / Language / Sprache:** **Türkçe** | [English](/posts/and-man-created-the-antichrist-artificial-intelligence-en/) | [Deutsch](/posts/und-der-mensch-erschuf-den-antichristen-kuenstliche-intelligenz-de/)
 {: .prompt-info }
 
 > "Tanrı aşkı yarattı / Baldan tat aldı / İçine acı kattı / Aldı gözyaşı..."

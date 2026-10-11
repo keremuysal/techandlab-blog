@@ -8,7 +8,7 @@ ref: merhaba-dunya
 description: "Willkommen auf dem offiziellen Blog von TechAndLab. Wir teilen Technologie-Einblicke, Softwareprojekte und Labornotizen."
 ---
 
-> 🌐 **Sprache / Language / Dil:** [🇹🇷 Türkçe](/posts/merhaba-dunya/) | [🇬🇧 English](/posts/hello-world-techandlab-en/) | **🇩🇪 Deutsch**
+> 🌐 **Sprache / Language / Dil:** [Türkçe](/posts/merhaba-dunya/) | [English](/posts/hello-world-techandlab-en/) | **Deutsch**
 {: .prompt-info }
 
 Willkommen auf der offiziellen Blog-Seite von **TechAndLab**.

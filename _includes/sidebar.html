@@ -28,6 +28,38 @@
   {% endfor %}
 {% endif %}
 
+<style>
+  .tl-sidebar-lang {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 7px;
+    background: var(--main-bg);
+    border: 1px solid var(--main-border-color);
+  }
+  .tl-sidebar-lang a {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 5px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: var(--text-muted-color) !important;
+    text-decoration: none !important;
+    transition: all 0.15s ease;
+  }
+  .tl-sidebar-lang a:hover {
+    color: var(--text-color) !important;
+  }
+  .tl-sidebar-lang a.active {
+    background: var(--card-bg);
+    color: var(--link-color) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
     <a href="{{ home_url | relative_url }}" id="avatar" class="rounded-circle">
@@ -40,15 +72,13 @@
     </a>
 
     <a class="site-title d-block" href="{{ home_url | relative_url }}">{{ site.title }}</a>
-    <p class="site-subtitle fst-italic mb-2">{{ localized_tagline }}</p>
+    <p class="site-subtitle fst-italic mb-0">{{ localized_tagline }}</p>
 
     <!-- Global Language Switcher in Sidebar -->
-    <div class="d-inline-flex align-items-center gap-1 mt-1 px-2 py-1 rounded border small">
-      <a href="{{ tr_target | relative_url }}" class="px-1 text-decoration-none {% if include.lang == 'tr-TR' %}fw-bold{% else %}text-muted{% endif %}" title="Türkçe">🇹🇷 TR</a>
-      <span class="text-muted">·</span>
-      <a href="{{ en_target | relative_url }}" class="px-1 text-decoration-none {% if include.lang == 'en' %}fw-bold{% else %}text-muted{% endif %}" title="English">🇬🇧 EN</a>
-      <span class="text-muted">·</span>
-      <a href="{{ de_target | relative_url }}" class="px-1 text-decoration-none {% if include.lang == 'de-DE' %}fw-bold{% else %}text-muted{% endif %}" title="Deutsch">🇩🇪 DE</a>
+    <div class="tl-sidebar-lang" aria-label="Language Switcher">
+      <a href="{{ tr_target | relative_url }}" class="{% if include.lang == 'tr-TR' %}active{% endif %}" title="Türkçe">TR</a>
+      <a href="{{ en_target | relative_url }}" class="{% if include.lang == 'en' %}active{% endif %}" title="English">EN</a>
+      <a href="{{ de_target | relative_url }}" class="{% if include.lang == 'de-DE' %}active{% endif %}" title="Deutsch">DE</a>
     </div>
   </header>
   <!-- .profile-wrapper -->

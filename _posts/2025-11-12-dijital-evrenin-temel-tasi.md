@@ -11,7 +11,7 @@ ref: transistor-wars
 description: "Modern dijital dünyanın kalbi olan transistörlerin evrimi, TSMC'nin saf dökümhane modeli, Moore Yasası ve GAAFET mimarisi."
 ---
 
-> 🌐 **Dil / Language / Sprache:** **🇹🇷 Türkçe** | [🇬🇧 English](/posts/foundation-of-the-digital-universe-transistor-wars-en/) | [🇩🇪 Deutsch](/posts/grundstein-des-digitalen-universums-transistorkriege-de/)
+> 🌐 **Dil / Language / Sprache:** **Türkçe** | [English](/posts/foundation-of-the-digital-universe-transistor-wars-en/) | [Deutsch](/posts/grundstein-des-digitalen-universums-transistorkriege-de/)
 {: .prompt-info }
 
 Selamlar, ilk bloguma hoş geldiniz. Arasıra sitemde blog paylaşmayı düşünüyorum; bülten açmamı istiyorsanız bana ulaşmanız yeterli olur.

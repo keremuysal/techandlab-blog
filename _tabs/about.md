@@ -5,7 +5,7 @@ order: 4
 
 ![Kerem Uysal]({{ site.baseurl }}/assets/portre2.png){: .profile-portrait}
 
-## 🇹🇷 Merhaba! Ben Kerem Uysal
+## Merhaba! Ben Kerem Uysal
 
 Bursa Teknik Üniversitesinde **Biyomühendislik** okuyorum.
 
@@ -13,7 +13,7 @@ Bursa Teknik Üniversitesinde **Biyomühendislik** okuyorum.
 
 ---
 
-## 🇬🇧 Hi! I'm Kerem Uysal
+## Hi! I'm Kerem Uysal
 
 I study **Bioengineering** at Bursa Technical University.
 
@@ -21,7 +21,7 @@ Born on July 26, 2005, in Nilüfer, Bursa, I was identified as gifted in 2012 th
 
 ---
 
-## 🇩🇪 Hallo! Ich bin Kerem Uysal
+## Hallo! Ich bin Kerem Uysal
 
 Ich studiere **Bioingenieurwesen** an der Technischen Universität Bursa (*Bursa Teknik Üniversitesi*).
 

@@ -4,22 +4,93 @@ layout: default
 
 {% include lang.html %}
 
+<style>
+  .tl-lang-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px 16px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    background: var(--card-bg);
+    border: 1px solid var(--main-border-color);
+  }
+  .tl-lang-label {
+    font-size: 0.88rem;
+    color: var(--text-muted-color);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tl-lang-pills {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--main-bg);
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid var(--main-border-color);
+  }
+  .tl-lang-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.84rem;
+    font-weight: 500;
+    color: var(--text-muted-color) !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: all 0.18s ease;
+  }
+  .tl-lang-pill:hover {
+    color: var(--text-color) !important;
+    background: var(--card-bg);
+  }
+  .tl-lang-pill.active {
+    background: var(--card-bg);
+    color: var(--link-color) !important;
+    font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  .tl-lang-code {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    opacity: 0.75;
+    text-transform: uppercase;
+  }
+</style>
+
 <!-- Language Switcher Banner on Home Page -->
-<div class="d-flex align-items-center justify-content-between flex-wrap px-3 py-2 mb-4 rounded border" style="background: var(--card-bg); border-color: var(--main-border-color) !important;">
-  <span class="small text-muted fw-semibold">
-    <i class="fas fa-globe fa-fw me-1"></i>
+<div class="tl-lang-bar">
+  <span class="tl-lang-label">
+    <i class="fas fa-globe"></i>
     {% if lang == 'en' %}
-      Global Edition (English)
+      Language
     {% elsif lang == 'de-DE' %}
-      Internationale Ausgabe (Deutsch)
+      Sprache
     {% else %}
-      Dil Seçimi / Language / Sprache
+      Dil Seçimi
     {% endif %}
   </span>
-  <div class="d-flex gap-2 small">
-    <a href="{{ '/' | relative_url }}" class="px-2 py-1 rounded text-decoration-none {% if lang == 'tr-TR' %}fw-bold border{% endif %}">🇹🇷 Türkçe</a>
-    <a href="{{ '/en/' | relative_url }}" class="px-2 py-1 rounded text-decoration-none {% if lang == 'en' %}fw-bold border{% endif %}">🇬🇧 English</a>
-    <a href="{{ '/de/' | relative_url }}" class="px-2 py-1 rounded text-decoration-none {% if lang == 'de-DE' %}fw-bold border{% endif %}">🇩🇪 Deutsch</a>
+  <div class="tl-lang-pills">
+    <a href="{{ '/' | relative_url }}" class="tl-lang-pill {% if lang == 'tr-TR' %}active{% endif %}">
+      <span class="tl-lang-code">TR</span>
+      <span>Türkçe</span>
+    </a>
+    <a href="{{ '/en/' | relative_url }}" class="tl-lang-pill {% if lang == 'en' %}active{% endif %}">
+      <span class="tl-lang-code">EN</span>
+      <span>English</span>
+    </a>
+    <a href="{{ '/de/' | relative_url }}" class="tl-lang-pill {% if lang == 'de-DE' %}active{% endif %}">
+      <span class="tl-lang-code">DE</span>
+      <span>Deutsch</span>
+    </a>
   </div>
 </div>
 
