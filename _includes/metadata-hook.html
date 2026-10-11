@@ -25,3 +25,71 @@
   <meta property="og:locale:alternate" content="de_DE" />
   <meta property="og:locale:alternate" content="tr_TR" />
 {% endif %}
+
+{% if page.url contains 'about' %}
+<!-- Person Schema.org Structured Data for Google Knowledge Graph & Rich Results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://keremuysal.com/#person",
+  "name": "Kerem Uysal",
+  "alternateName": ["A. Kerem Uysal", "Ahmet Kerem Uysal"],
+  "givenName": "Ahmet Kerem",
+  "familyName": "Uysal",
+  "gender": "https://schema.org/Male",
+  "birthDate": "2005-07-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nilüfer, Bursa, Türkiye",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bursa",
+      "addressCountry": "TR"
+    }
+  },
+  "url": "https://keremuysal.com",
+  "image": "https://blog.techandlab.com/assets/portre2.png",
+  "jobTitle": "Bioengineering Student & Founder",
+  "description": "Bursa Teknik Üniversitesi Biyomühendislik 3. sınıf öğrencisi ve Tech&Lab kurucusu. Biyomühendislik, gömülü sistemler, radar/RF donanım ve yazılım mimarisi üzerine çalışmaktadır.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Tech&Lab",
+    "alternateName": "T&L",
+    "url": "https://www.techandlab.com/",
+    "logo": "https://www.techandlab.com/assets/web-app-manifest-512x512.png"
+  },
+  "affiliation": {
+    "@type": "EducationalOrganization",
+    "name": "Bursa Teknik Üniversitesi",
+    "alternateName": "BTÜ",
+    "url": "https://btu.edu.tr"
+  },
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Bursa Erkek Lisesi"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Bursa Bilim ve Sanat Merkezi (BİLSEM)"
+    }
+  ],
+  "sameAs": [
+    "https://keremuysal.com",
+    "https://twitter.com/keremuysaljpg",
+    "https://github.com/keremuysal",
+    "https://www.linkedin.com/in/akeremuysal/",
+    "https://www.instagram.com/grimacompany/",
+    "https://blog.techandlab.com"
+  ],
+  "knowsAbout": [
+    "Bioengineering",
+    "Embedded Systems",
+    "Software Architecture",
+    "Hardware Engineering",
+    "RF & Radar Systems"
+  ]
+}
+</script>
+{% endif %}

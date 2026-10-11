@@ -9,7 +9,7 @@ order: 4
 
 Bursa Teknik Üniversitesinde **Biyomühendislik** okuyorum.
 
-26 Temmuz 2005 tarihinde Bursa'nın Nilüfer ilçesinde doğdum. 2012 yılında Bilim ve Sanat Merkezi (BİLSEM) sınavlarına girip üstün yetenekli tanısı aldım. Bursa Erkek Lisesi'nde lise öğretimimi tamamladım. Şu an Bursa Teknik Üniversitesinde Biyomühendislik 2. sınıf öğrencisi olarak eğitimime devam ediyorum.
+26 Temmuz 2005 tarihinde Bursa'nın Nilüfer ilçesinde doğdum. 2012 yılında Bilim ve Sanat Merkezi (BİLSEM) sınavlarına girip üstün yetenekli tanısı aldım. Bursa Erkek Lisesi'nde lise öğretimimi tamamladım. Şu an Bursa Teknik Üniversitesinde Biyomühendislik 3. sınıf öğrencisi olarak eğitimime devam ediyorum.
 
 ---
 
@@ -17,7 +17,7 @@ Bursa Teknik Üniversitesinde **Biyomühendislik** okuyorum.
 
 I study **Bioengineering** at Bursa Technical University.
 
-Born on July 26, 2005, in Nilüfer, Bursa, I was identified as gifted in 2012 through the Science and Art Center (BİLSEM) program and graduated from Bursa Boys' High School (*Bursa Erkek Lisesi*). I am currently a sophomore in Bioengineering at Bursa Technical University, working at the intersection of bioengineering, embedded systems, radar/RF hardware, software architecture, and strategy under **Tech&Lab**.
+Born on July 26, 2005, in Nilüfer, Bursa, I was identified as gifted in 2012 through the Science and Art Center (BİLSEM) program and graduated from Bursa Boys' High School (*Bursa Erkek Lisesi*). I am currently a junior in Bioengineering at Bursa Technical University, working at the intersection of bioengineering, embedded systems, radar/RF hardware, software architecture, and strategy under **Tech&Lab**.
 
 ---
 
@@ -25,7 +25,7 @@ Born on July 26, 2005, in Nilüfer, Bursa, I was identified as gifted in 2012 th
 
 Ich studiere **Bioingenieurwesen** an der Technischen Universität Bursa (*Bursa Teknik Üniversitesi*).
 
-Geboren am 26. Juli 2005 in Bursa, wurde ich 2012 im Rahmen des BİLSEM-Programms für Hochbegabte aufgenommen und absolvierte das traditionsreiche Gymnasium *Bursa Erkek Lisesi*. Derzeit setze ich mein Studium des Bioingenieurwesens fort und entwickle im Rahmen von **Tech&Lab** Projekte an der Schnittstelle von Biotechnologie, Hardware, Softwarearchitektur und Systemtheorie.
+Geboren am 26. Juli 2005 in Bursa, wurde ich 2012 im Rahmen des BİLSEM-Programms für Hochbegabte aufgenommen und absolvierte das traditionsreiche Gymnasium *Bursa Erkek Lisesi*. Derzeit bin ich Student im 3. Studienjahr des Bioingenieurwesens an der Technischen Universität Bursa und entwickle im Rahmen von **Tech&Lab** Projekte an der Schnittstelle von Biotechnologie, Hardware, Softwarearchitektur und Systemtheorie.
 
 ---
 
@@ -43,3 +43,4 @@ Geboren am 26. Juli 2005 in Bursa, wurde ich 2012 im Rahmen des BİLSEM-Programm
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
 </style>
+
