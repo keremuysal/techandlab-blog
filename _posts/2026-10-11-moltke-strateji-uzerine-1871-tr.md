@@ -10,7 +10,7 @@ description: "Helmuth von Moltke'nin 1871 tarihli ünlü 'Über Strategie' (Stra
 > 🌐 **Dil / Language / Sprache:** **🇹🇷 Türkçe** | [🇬🇧 English](/posts/moltke-on-strategy-1871-en/) | [🇩🇪 Deutsch (Original 1900)](/posts/moltke-ueber-strategie-1871-de/)
 {: .prompt-info }
 
-> 📄 **PDF İndir (LaTeX Edisyonu):** [🇹🇷 Türkçe PDF](/assets/pdf/moltke_strateji_uzerine_1871_tr.pdf) | [🇬🇧 English PDF](/assets/pdf/moltke_on_strategy_1871_en.pdf) | [🇩🇪 Deutsch PDF](/assets/pdf/moltke_ueber_strategie_1871.pdf)
+> 📄 **PDF İndir:** [🇹🇷 Türkçe PDF](/assets/pdf/moltke_strateji_uzerine_1871_tr.pdf) | [🇬🇧 English PDF](/assets/pdf/moltke_on_strategy_1871_en.pdf) | [🇩🇪 Deutsch PDF](/assets/pdf/moltke_ueber_strategie_1871.pdf)
 {: .prompt-tip }
 
 Modern yazılım mühendisliğinde, sistem mimarisinde, yapay zeka araştırmalarında ve iş dünyasında sıkça duyduğumuz bir söz vardır: *"Hiçbir plan düşmanla ilk temastan sağ çıkmaz."* (Ya da Mike Tyson’ın popülerleştirdiği şekliyle: *"Herkesin suratına bir yumruk yiyene kadar bir planı vardır."*)

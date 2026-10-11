@@ -11,7 +11,7 @@ description: "Analyse und vollständiger Originaltext (Ausgabe 1900, Band II.2, 
 > 🌐 **Sprache / Language / Dil:** [🇹🇷 Türkçe](/posts/moltke-strateji-uzerine-1871-tr/) | [🇬🇧 English](/posts/moltke-on-strategy-1871-en/) | **🇩🇪 Deutsch (Original 1900)**
 {: .prompt-info }
 
-> 📄 **PDF herunterladen (LaTeX-Ausgabe):** [🇩🇪 Deutsch PDF](/assets/pdf/moltke_ueber_strategie_1871.pdf) | [🇹🇷 Türkçe PDF](/assets/pdf/moltke_strateji_uzerine_1871_tr.pdf) | [🇬🇧 English PDF](/assets/pdf/moltke_on_strategy_1871_en.pdf)
+> 📄 **PDF herunterladen:** [🇩🇪 Deutsch PDF](/assets/pdf/moltke_ueber_strategie_1871.pdf) | [🇹🇷 Türkçe PDF](/assets/pdf/moltke_strateji_uzerine_1871_tr.pdf) | [🇬🇧 English PDF](/assets/pdf/moltke_on_strategy_1871_en.pdf)
 {: .prompt-tip }
 
 Kaum ein militärtheoretischer und strategischer Gedanke wird in der modernen Systemtheorie, der Softwarearchitektur und im strategischen Management häufiger zitiert als der Satz: *„Kein Operationsplan reicht mit einiger Sicherheit über das erste Zusammentreffen mit der feindlichen Hauptmacht hinaus.“*
