@@ -44,9 +44,6 @@ When hydrophobic amino acid side chains that should be buried inside the protein
 * **Alzheimer’s Disease:** Extracellular amyloid-$\beta$ ($\text{A}\beta_{42}$) plaques and intracellular neurofibrillary tangles of hyperphosphorylated Tau proteins.
 * **Prion Diseases (Creutzfeldt-Jakob, BSE):** The normal cellular prion protein ($\text{PrP}^\text{C}$, predominantly $\alpha$-helical) converts into the infectious, misfolded isoform ($\text{PrP}^\text{Sc}$, predominantly $\beta$-sheet). Most strikingly, $\text{PrP}^\text{Sc}$ acts as an autocatalytic conformational template, forcing healthy $\text{PrP}^\text{C}$ molecules into its pathological geometry.
 
-![Protein Folding and Energy Landscape](/assets/alphafold-1.webp)
-*Figure: The thermodynamic trajectory from an unfolded polypeptide chain to a functional native state or pathological amyloid aggregates.*
-
 ---
 
 ## 2. Levinthal's Paradox: Navigating $10^{300}$ Possibilities
@@ -178,9 +175,6 @@ Starting from an isotropic Gaussian cloud of atoms, the Diffusion Module denoise
 A bioengineer never blindly trusts a rendered 3D structure. In structural biology, conducting molecular docking or mutational design without rigorous validation is equivalent to building a bridge without calculating load tolerances.
 
 AlphaFold outputs two probabilistic confidence metrics alongside each predicted model: **pLDDT** and **PAE**.
-
-![pLDDT and PAE Validation](/assets/alphafold-2.webp)
-*Figure: Residue-level confidence (pLDDT) and inter-domain alignment error (PAE) matrix.*
 
 ### 1. pLDDT (*predicted Local Distance Difference Test*)
 A localized per-residue confidence metric bounded between $[0, 100]$:

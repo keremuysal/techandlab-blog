@@ -55,9 +55,6 @@ Eğer tüm geçmiş alışkanlıklarımızı bir kenara bırakıp sıfırdan ide
 
 Doğa, bu mühendislik problemini yaklaşık **4 milyar yıl önce** çözdü: **Deoksiribonükleik Asit (DNA).**
 
-![DNA ve Silikon Bellek Mimarisi](/assets/dna-storage-architecture.webp)
-*Görsel: Silikon transistör dizilerinden üç boyutlu DNA sarmalına veri yoğunluğu sıçraması.*
-
 ### 1 Gram DNA’da 215 Petabyte: Yoğunluğun Matematiği
 
 DNA, şeker-fosfat omurgası üzerine dizilmiş dört farklı azotlu bazdan (nükleotid) oluşan bir biyopolimerdir: **Adenin (A), Timin (T), Sitozin (C)** ve **Guanin (G)**.

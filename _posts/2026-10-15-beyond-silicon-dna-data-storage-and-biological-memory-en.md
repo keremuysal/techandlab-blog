@@ -55,8 +55,6 @@ If we set aside legacy hardware paradigms and engineered an ideal archival mediu
 
 Nature resolved this engineering challenge roughly **4 billion years ago**: **Deoxyribonucleic Acid (DNA).**
 
-![DNA and Silicon Storage Architecture](/assets/dna-storage-architecture.webp)
-*Figure: The volumetric density leap from planar silicon transistor arrays to 3D DNA macromolecules.*
 
 ### 215 Petabytes in a Single Gram: The Information Density
 

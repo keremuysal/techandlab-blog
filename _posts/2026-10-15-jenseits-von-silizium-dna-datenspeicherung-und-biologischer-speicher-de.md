@@ -55,8 +55,6 @@ Wollte man ein ideales Archivmedium ohne historische Altlasten von Grund auf ent
 
 Die Natur löste diese Aufgabe vor **4 Milliarden Jahren**: **Desoxyribonukleinsäure (DNA).**
 
-![DNA und Silizium-Speicherarchitektur](/assets/dna-storage-architecture.webp)
-*Abbildung: Der Sprung in der Volumendichte von planaren Siliziumtransistoren zur 3D-DNA-Makromolekülstruktur.*
 
 ### 215 Petabyte in 1 Gramm: Die Informationsdichte
 
