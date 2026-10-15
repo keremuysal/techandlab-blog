@@ -28,6 +28,9 @@ Moltke bu kısa makalede stratejiyi katı bir "kurallar bilimi" olarak gören kl
 2. **Strateji Bir "Uyarlamalar Sistemidir" (*System der Aushülfen*):** Sabit bir yol haritasına körü körüne bağlı kalmak yalnız konudan habersiz olanların (*Laie*) yanılgısıdır. Gerçek liderlik, ana hedefi gözden kaçırmadan sürekli değişen koşullara göre karar alabilme sanatıdır (*Auftragstaktik* / Çevik Mimari).
 3. **Bilinmeyenler ve Olasılık Hesabı:** Hava durumu, demiryolu kazaları, iletişim kopuklukları veya sistem hataları kontrol edilemez; ancak her tekil durumda "en mükemmelini olmasa bile makul olanı" seçen bir karar verici, olasılık yasaları gereği uzun vadede hedefine ulaşır.
 
+![Moltke ve Stratejik Karar Mimarisi](/assets/moltke-strategy-1.webp)
+*Görsel: Tarihsel savaş arazisi haritasından dinamik olasılık ağaçlarına: Moltke'nin 'uyarlamalar sistemi' ve stratejik sürtünme mimarisi.*
+
 ---
 
 ## Tam Metin (Türkçe Çeviri) — *Moltkes Militärische Werke, II.2, s. 287–293*

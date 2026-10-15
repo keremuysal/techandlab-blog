@@ -45,6 +45,9 @@ Während Cloud-Modelle Gigabytes an Speicher belegen, operiert der Entwickler au
 * **Flash-Speicher (Nichtflüchtig):** 256 KB (Firmware, Treiber, RTOS-Kernel und neuronale Gewichte müssen hier Platz finden).
 * **SRAM (Flüchtiger Arbeitsspeicher):** 64 KB (Stack, Heap, Peripheriepuffer und Aktivierungsmatrizen teilen sich diesen Raum).
 
+![TinyML auf Mikrocontrollern](/assets/tinyml-1.webp)
+*Abbildung: Ein quantisiertes neuronales Netzwerk auf einem ARM Cortex-M Siliziumchip mit minimalem Speicher- und Leistungsbudget.*
+
 Wie läuft ein neuronales Netz auf dieser Hardware? Die Antwort liegt in der rigorosen Ausnutzung der **Harvard-Architektur**.
 
 Da trainierte Gewichte und Biases zur Inferenzzeit unveränderlich (`const`) sind, verbleiben sie im **Flash-Speicher (`.rodata`)**. Sie werden niemals ins RAM kopiert; der Prozessor liest sie direkt über **eXecute-In-Place (XIP)** aus dem Flash. Die kostbaren **64 KB SRAM** dienen ausschließlich den Aktivierungstensoren der jeweils aktiven Schicht, organisiert als Ping-Pong-Puffer.

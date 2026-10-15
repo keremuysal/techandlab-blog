@@ -15,6 +15,9 @@ TechAndLab'in resmi blog sayfasına hoş geldiniz.
 
 Uzun süredir planladığımız bu platformda, teknoloji, yazılım projeleri ve laboratuvar notlarımızı sizlerle paylaşacağız. Amacımız, öğrendiklerimizi dokümante etmek ve bilgi birikimimizi aktarmak.
 
+![TechAndLab Araştırma ve Mühendislik Laboratuvarı](/assets/techandlab-launch-1.webp)
+*Görsel: Donanım mühendisliği ve biyoteknolojiyi buluşturan TechAndLab çalışma masası.*
+
 ## Blogda Neler Bulacaksınız?
 
 Bu sayfada ağırlıklı olarak aşağıdaki konularda içerikler üretmeyi hedefliyoruz:

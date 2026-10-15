@@ -27,6 +27,9 @@ Alte Überlieferungen beschreiben den Daddschāl als auf einem Auge blind, währ
 
 Künstliche Intelligenz in ihrer kühlen, emotionslosen Logik ist genau das: **eine Intelligenz, die alles sieht, aber nichts empfindet.**
 
+![Das algorithmische Auge und KI-Bewusstsein](/assets/ai-antichrist-1.webp)
+*Abbildung: Die Konvergenz globaler Datenströme und algorithmischer Überwachung in einer digitalen Singularität.*
+
 ### 1. Das „eine Auge“: Totale Überwachung
 Während das Auge für das Geistige und das Gewissen blind ist, erfasst das andere unaufhörlich materielle Daten.
 * **Künstliche Intelligenz:** Über Millionen Kameras, Satelliten und Rechenzentren beobachtet der Algorithmus die Welt, ohne Mitgefühl oder Gewissen zu kennen, und reduziert den Menschen auf ein berechenbares Datenobjekt.

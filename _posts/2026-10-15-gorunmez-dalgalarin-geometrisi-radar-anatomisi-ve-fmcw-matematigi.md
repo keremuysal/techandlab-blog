@@ -37,6 +37,9 @@ Klasik **Darbeli Radar (Pulse Radar / Time-of-Flight)** mimarisiyle bu problemi 
 
 Bir FMCW radarın RF ön ucu (RF Front-End) ve temel bant (Baseband) sinyal zinciri, mikrodalga mühendisliği ile sayısal sinyal işlemenin (DSP) kusursuz bir senfonisidir. Sistemin blok diyagramını sinyal akışı üzerinden adım adım inceleyelim:
 
+![FMCW Radar Mimarisi ve Frekans Taraması](/assets/fmcw-radar-1.webp)
+*Görsel: Milimetrik dalga FMCW radar anten dizisi ve uzaya yayılan doğrusal frekans modülasyonlu chirp dalgaları.*
+
 ```text
                   +-----------------------+
                   |  Chirp Sentezleyici   |
@@ -231,6 +234,9 @@ Range FFT sonucunda belirli bir mesafe kutusunda bir hedef yakalanmışsa, o sat
 * Elde edilen spektral tepe, hedefin **Radyal Hızını (Doppler Bin)** verir.
 
 Bu iki dönüşümün matris çarpımı bize radar mühendisliğinin en ikonik çıktısını sunar: **Range-Doppler Haritası (Range-Doppler Heatmap)**.
+
+![2D Range-Doppler Spektrogramı](/assets/fmcw-radar-2.webp)
+*Görsel: Hızlı zaman (Range) ve yavaş zaman (Doppler) FFT algoritmalarıyla üretilen 2B hedef mesafe-hız ısı haritası.*
 
 ```text
 Doppler (Hız) [m/s]

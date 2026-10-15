@@ -37,6 +37,9 @@ Aus diesen Gründen setzt die moderne Sensorik autonomer Fahrzeuge und der Indus
 
 Das HF-Frontend und die Basisband-Signalkette eines FMCW-Radars bilden eine harmonische Symbiose aus Mikrowellentechnik und digitaler Signalverarbeitung (DSP):
 
+![FMCW-Radararchitektur und Millimeterwellen-Abtastung](/assets/fmcw-radar-1.webp)
+*Abbildung: Millimeterwellen-FMCW-Radarantennenarray mit linear frequenzmodulierter Chirp-Wellenabstrahlung.*
+
 ```text
                   +-----------------------+
                   |    Chirp-Synthesizer  |
@@ -190,6 +193,9 @@ Auf jede Spalte ($M$ Abtastwerte eines Chirps) wird eine 1D-FFT angewendet. Die 
 Über alle $N$ Chirps hinweg wird entlang der Zeilen für jeden detektierten Entfernungsbereich eine zweite 1D-FFT gerechnet. Dies wandelt die Phasendrehgeschwindigkeit in die **Radialgeschwindigkeit (*Doppler Bin*)** um.
 
 Das Resultat ist die **Range-Doppler-Heatmap**:
+
+![2D Range-Doppler Spektrogramm](/assets/fmcw-radar-2.webp)
+*Abbildung: Zweidimensionale Zielentfernungs- und Radialgeschwindigkeits-Signatur durch Fast-Time und Slow-Time 2D-FFT-Verarbeitung.*
 
 ```text
 Doppler (Geschwindigkeit) [m/s]

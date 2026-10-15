@@ -26,6 +26,9 @@ Frequently misfiled in digital archives due to multi-volume catalog collisions w
 2. **Strategy as a "System of Expedients" (*System der Aushülfen*):** Only the layman imagines that a successful campaign is the rigid execution of a preconceived master plan. True strategy is continuous adaptation: keeping the grand objective in view while making spontaneous, high-judgment decisions through the fog of uncertainty.
 3. **Probabilistic Resilience Under Friction:** Unforeseeable third factors—weather, illness, infrastructure failures, misunderstandings—cannot be eliminated. Yet because chance affects all sides over time, the decision-maker who consistently orders "if not the very best, then at least what is sensible" retains the statistical advantage.
 
+![Moltke and Strategic Decision Architecture](/assets/moltke-strategy-1.webp)
+*Figure: From historical cartography to modern probability graph networks: Moltke's doctrine of operational adaptability and friction.*
+
 ---
 
 ## Full Text (English Translation) — *Moltkes Militärische Werke, II.2, pp. 287–293*

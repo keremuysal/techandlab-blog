@@ -26,6 +26,9 @@ Da in digitalen Bibliotheken (wie Google Books und dem Internet Archive) die Bä
 2. **Strategie als „System der Aushülfen“:** Starre Dogmen und theoretische Lehrsätze versagen in der Praxis. Strategie ist die Übertragung des Wissens auf das praktische Leben – die kontinuierliche Fortbildung des ursprünglich leitenden Gedankens unter ständig wechselnden Bedingungen.
 3. **Wahrscheinlichkeitskalkül im Nebel der Ungewißheit:** Zufälle, Reibungsverluste und unvorhersehbare Störungen lassen sich nicht beherrschen; wer jedoch in jedem Einzelfall das Verständige anordnet, behält auf lange Sicht die Wahrscheinlichkeit des Erfolges auf seiner Seite.
 
+![Moltke und die Architektur strategischer Entscheidungen](/assets/moltke-strategy-1.webp)
+*Abbildung: Von historischer Kartografie zu dynamischen Entscheidungsgraphen: Moltkes Doktrin operativer Anpassungsfähigkeit und Reibung.*
+
 ---
 
 ## Vollständiger Originaltext (Deutsch, Ausgabe 1900) — *Moltkes Militärische Werke, II.2, S. 287–293*

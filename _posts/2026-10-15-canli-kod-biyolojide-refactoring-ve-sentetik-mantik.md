@@ -51,6 +51,9 @@ CRISPR-Cas9'u anlamak için en iyi analoji, gelişmiş bir IDE'nin **"Bul ve De�
 2. **PAM Dizisi (Protospacer Adjacent Motif) — Yetki Kontrolü:** Cas9 enziminin DNA'ya bağlanıp kesim yapabilmesi için hedef dizinin hemen yanında `NGG` gibi spesifik bir imza araması gerekir. Bu, sistemin kendi kaynak kodunu yanlışlıkla kesmesini önleyen bir tür *checksum* veya *erişim izni* mekanizmasıdır.
 3. **Cas9 Enzimi — Moleküler Makas ve Yama Aracı:** gRNA hedefi bulup eşleştiğinde, Cas9 proteini DNA çift sarmalını o noktadan keser (**Double-Strand Break**). Ardından hücrenin kendi hata onarım mekanizmalarını (NHEJ veya HDR) manipüle ederek istersek bozuk geni devre dışı bırakırız (*comment-out*), istersek de dışarıdan verdiğimiz sağlıklı DNA şablonunu o bölgeye **hot-patch** olarak entegre ederiz.
 
+![CRISPR ve Sentetik Biyoloji Mantık Devreleri](/assets/crispr-synthetic-biology-1.webp)
+*Görsel: Çift sarmal DNA üzerinde moleküler hassasiyetle çalışan CRISPR-Cas9 kompleksi ve hücresel mantık kapıları.*
+
 ### Off-Target Etkisi: Biyolojik "Regression Bug"
 Yazılımda dikkatsiz yazılmış bir Regex ile tüm projede *Find & Replace* yaptığınızda, hiç dokunmamanız gereken bir modüldeki benzer isimli değişkeni de değiştirip sistemi bozabilirsiniz. Biyolojide buna **Off-Target (Hedef Dışı) Etki** diyoruz. 
 

@@ -15,6 +15,9 @@ Welcome to the official blog of **TechAndLab**.
 
 On this long-planned platform, we will share our insights on technology, software engineering projects, and laboratory notes. Our goal is to document what we learn and share our accumulated knowledge with the global community.
 
+![TechAndLab Research and Engineering Laboratory](/assets/techandlab-launch-1.webp)
+*Figure: The TechAndLab engineering workstation bringing together embedded hardware and biotechnology.*
+
 ## What Will You Find on This Blog?
 
 We aim to publish content primarily across the following areas:

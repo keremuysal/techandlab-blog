@@ -51,6 +51,9 @@ Die treffendste Analogie für CRISPR-Cas9 ist die **"Suchen & Ersetzen"-Funktion
 2. **PAM-Sequenz (Protospacer Adjacent Motif) — Zugriffskontrolle:** Damit die Cas9-Endonuklease binden und schneiden kann, muss unmittelbar neben der Zielsequenz ein Signaturmotiv wie `NGG` vorhanden sein. Dies verhindert als molekulare Prüfsumme, dass das Bakterium versehentlich seine eigene CRISPR-Bibliothek zerschneidet.
 3. **Cas9-Enzym — Molekulare Schere und Patch-Tool:** Sobald die gRNA hybridisiert, schneidet Cas9 beide Stränge der DNA (**Doppelstrangbruch / Double-Strand Break**). Indem man die zelleigenen Reparaturpfade (NHEJ oder HDR) nutzt, lässt sich das defekte Gen deaktivieren (*auskommentieren*) oder eine synthetische DNA-Matrize als **Hot-Patch** integrieren.
 
+![CRISPR und Synthetische Biologie Logikgatter](/assets/crispr-synthetic-biology-1.webp)
+*Abbildung: Der CRISPR-Cas9-Molekularkomplex beim präzisen DNA-Refactoring neben synthetischen zellulären Logikgattern.*
+
 ### Off-Target-Effekte: Biologische Regressions-Bugs
 Wer in einem großen Softwareprojekt unvorsichtig mit regulären Ausdrücken global ersetzt, riskiert, unbeabsichtigt Variablen gleichen Namens in anderen Modulen zu überschreiben. In der Biologie nennen wir dies einen **Off-Target-Effekt**.
 

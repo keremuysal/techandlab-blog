@@ -27,6 +27,9 @@ Ancient traditions describe the Dajjal as blind in one eye, while the other star
 
 Stripped of human empathy, cold algorithmic intelligence is precisely this: **an intelligence that sees everything yet feels nothing.**
 
+![Algorithmic Single Eye and AI Consciousness](/assets/ai-antichrist-1.webp)
+*Figure: The convergence of global data streams and algorithmic surveillance into a single digital singularity.*
+
 ### 1. The "One Eye": Absolute Surveillance
 In traditional accounts, one eye is blind to spirit and conscience, while the other is wide open to material data.
 * **Artificial Intelligence:** Watching the world through millions of cameras, satellites, and data centers, the algorithm sees every pattern yet feels no remorse. Blind to the human soul and privacy, it encodes human beings merely as data objects.

@@ -44,6 +44,9 @@ Wenn hydrophobe Aminosäure-Seitenketten, die im Inneren des Proteinkerns verbor
 * **Alzheimer-Krankheit:** Extrazelluläre Amyloid-$\beta$-Plaques ($\text{A}\beta_{42}$) und intrazelluläre Neurofibrillenbündel aus hyperphosphoryliertem Tau-Protein.
 * **Prionen-Erkrankungen (Creutzfeldt-Jakob, BSE):** Das normale Prion-Protein ($\text{PrP}^\text{C}$, überwiegend $\alpha$-helikal) nimmt eine pathologische Konformation an ($\text{PrP}^\text{Sc}$, überwiegend $\beta$-Faltblatt). $\text{PrP}^\text{Sc}$ fungiert dabei als autokatalytische Faltungsvorlage, die gesunde $\text{PrP}^\text{C}$-Moleküle in seine pathologische Geometrie zwingt.
 
+![Proteinfaltung und Energielandschaft](/assets/alphafold-1.webp)
+*Abbildung: Der thermodynamische Pfad von der ungefalteten Kette zum nativen Funktionszustand oder zu pathologischen Amyloid-Aggregaten.*
+
 ---
 
 ## 2. Das Levinthal-Paradoxon: Die Suche unter $10^{300}$ Möglichkeiten
@@ -163,6 +166,9 @@ Ausgehend von einer zufälligen Gaußschen Atomwolke rekonstruiert das Diffusion
 ## 5. Qualitätsmetriken: pLDDT und PAE interpretieren
 
 In der Strukturbiologie ist die Verifikation eines Modells unverzichtbar. AlphaFold liefert zu jeder Vorhersage zwei probabilistische Konfidenzmetriken: **pLDDT** und **PAE**.
+
+![pLDDT und PAE Auswertung](/assets/alphafold-2.webp)
+*Abbildung: Lokale Konfidenz (pLDDT) und globale Ausrichtungsfehlermatrix (PAE).*
 
 ### 1. pLDDT (*predicted Local Distance Difference Test*)
 Ein lokaler Konfidenzwert zwischen $[0, 100]$:

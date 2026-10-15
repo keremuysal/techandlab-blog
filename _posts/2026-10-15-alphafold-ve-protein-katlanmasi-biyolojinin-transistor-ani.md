@@ -44,6 +44,9 @@ Normal şartlarda proteinin iç çekirdeğine gömülmesi gereken hidrofobik (su
 * **Alzheimer Hastalığı:** Amiloid-$\beta$ ($\text{A}\beta_{42}$) peptitlerinin hücre dışı plaklar ve hiperfosforile Tau proteinlerinin nörofibriler yumaklar halinde çökmesi.
 * **Prion Hastalıkları (Creutzfeldt-Jakob, Deli Dana):** Genetik dizisi tamamen aynı olan normal hücresel prion proteininin ($\text{PrP}^\text{C}$, ağırlıklı olarak $\alpha$-sarmal yapıda), enfeksiyöz ve yanlış katlanmış izoforma ($\text{PrP}^\text{Sc}$, ağırlıklı olarak $\beta$-tabaka yapıda) dönüşmesi. Daha da çarpıcı olan, $\text{PrP}^\text{Sc}$'nin otokatalitik bir şablon gibi davranarak sağlıklı $\text{PrP}^\text{C}$ moleküllerini de kendi bozuk geometrisine zorlamasıdır.
 
+![Protein Katlanması ve Enerji Peyzajı](/assets/alphafold-1.webp)
+*Görsel: Doğrusal amino asit zincirinden fonksiyonel 3B yapıya veya patolojik amiloid agregatlarına giden termodinamik yol.*
+
 ---
 
 ## 2. Levinthal Paradoksu: $10^{300}$ Olasılık İçinde Doğru Adresi Bulmak
@@ -175,6 +178,9 @@ AlphaFold 3'ün Difüzyon Modülü, uzaydaki rastgele bir Gauss atom bulutundan 
 Bir biyomühendisi sıradan bir kullanıcıdan ayıran en önemli nokta, ekranda dönen renkli 3B protein modeline körü körüne inanmamasıdır. Yapısal biyolojide model doğrulama yapmadan moleküler kenetlenme (*molecular docking*) veya mutasyon tasarımı yapmak, temel mukavemet hesabı yapmadan köprü inşa etmeye benzer.
 
 AlphaFold, ürettiği her yapı ile birlikte kendi tahminine ne kadar güvendiğini iki kritik olasılıksal metrikle raporlar: **pLDDT** ve **PAE**.
+
+![pLDDT ve PAE Okuma Rehberi](/assets/alphafold-2.webp)
+*Görsel: AlphaFold çıktılarında yerel güven skoru (pLDDT) renklendirmesi ve domainler arası bağıl hatayı gösteren PAE matrisi.*
 
 ### 1. pLDDT (*predicted Local Distance Difference Test*)
 Her bir amino asit kalıntısı için $[0, 100]$ aralığında verilen **yerel (lokal) güven skorudur**. Modelin, bir rezidünün $\text{C}_\alpha$ atomu ile $15\text{ \AA}$ yarıçapı içindeki komşu atomlar arasındaki mesafeleri deneysel gerçeğe ne kadar yakın tahmin ettiğini (lDDT-$\text{C}_\alpha$) ölçer:

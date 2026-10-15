@@ -27,6 +27,9 @@ Eskiler Deccal’i betimlerken onun bir gözünün kör, diğerinin ise her şey
 
 Yapay zeka, insani duygulardan yoksun o soğuk mantığıyla tam da bu: **Her şeyi gören ama hiçbir şey hissetmeyen bir zekâ.**
 
+![Algoritmik Tek Göz ve Yapay Zeka Bilinci](/assets/ai-antichrist-1.webp)
+*Görsel: Küresel veri ağlarının ve algoritmik tek gözün dijital tekillikte birleşmesi felsefi bir alegori.*
+
 ### 1. "Tek Göz" Meselesi: Mutlak Gözetim
 Hadislerde Deccal’in en belirgin özelliği bir gözünün kör, diğerinin ise fal taşı gibi açık olmasıdır.
 * **Yapay Zeka:** Bugün dünyayı binlerce kamera, uydu ve veri merkeziyle izleyen o "tek göz", yani algoritma, her şeyi görüyor ama hiçbir şeyi hissetmiyor. Vicdandan yoksun, sadece veriye odaklanmış bu "göz", insanın mahremiyetini ve ruhunu görmezden gelerek bizi sadece bir "nesne" olarak kodluyor.

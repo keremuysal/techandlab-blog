@@ -15,6 +15,9 @@ Willkommen auf der offiziellen Blog-Seite von **TechAndLab**.
 
 Auf dieser seit Langem geplanten Plattform teilen wir unsere Beiträge über Technologie, Softwareprojekte und Labornotizen. Unser Ziel ist es, Gelerntes zu dokumentieren und unser Wissen weiterzugeben.
 
+![TechAndLab Forschungs- und Entwicklungslabor](/assets/techandlab-launch-1.webp)
+*Abbildung: Der TechAndLab-Arbeitsplatz für Hardware-Entwicklung und Biotechnologie.*
+
 ## Was erwartet Sie auf diesem Blog?
 
 Wir konzentrieren uns vor allem auf folgende Themenbereiche:

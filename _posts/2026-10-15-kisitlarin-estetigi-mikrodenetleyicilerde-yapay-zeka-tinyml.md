@@ -45,6 +45,9 @@ Bulut tabanlı bir Büyük Dil Modeli (LLM) veya derin görüntü işleme ağı 
 * **Flash Bellek (Kalıcı Depolama):** 256 KB (Hem işletim kodu, hem sürücüler, hem de sinir ağının eğitilmiş ağırlıkları buraya sığmak zorunda).
 * **SRAM (Çalışma Belleği):** 64 KB (Yığın, global değişkenler, sensör tamponları ve sinir ağının katmanlar arası aktivasyon tensörleri için tek alan).
 
+![TinyML ve Mikrodenetleyici Üzerinde Yapay Zeka](/assets/tinyml-1.webp)
+*Görsel: Kilobayt ölçeğindeki bellek ve mikro-vat güç bütçesiyle çalışan ARM Cortex-M çipinde gömülü kuantize yapay sinir ağı.*
+
 Bu donanımda bir yapay sinir ağı nasıl nefes alır? Cevap, **Harvard mimarisinin** doğasını ve bellek hiyerarşisini son baytına kadar sömürmekte yatar.
 
 Mikrodenetleyicilerde eğitilmiş modelin ağırlıkları (weights) ve sapma (bias) değerleri değişmez (immutable) olduğu için `const` olarak tanımlanır ve derleyici tarafından doğrudan **Flash bellekteki `.rodata` (Read-Only Data)** bölümüne yerleştirilir. Çalışma zamanında bu ağırlıklar RAM’e kopyalanmaz; işlemci bunları doğrudan Flash üzerinden (XIP - *eXecute-In-Place* / doğrudan adresleme ile) okur. Değerli olan **64 KB SRAM** ise yalnızca o an hesaplanan katmanın giriş ve çıkış aktivasyon matrisleri için dönüşümlü olarak (Ping-Pong tamponlama ile) kullanılır.

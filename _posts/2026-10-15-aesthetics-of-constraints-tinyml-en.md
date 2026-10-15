@@ -45,6 +45,9 @@ While cloud-based Large Language Models (LLMs) consume hundreds of gigabytes of 
 * **Non-Volatile Flash:** 256 KB (application firmware, hardware abstraction layers, RTOS kernel, and trained neural network weights must all co-exist here).
 * **SRAM (Working Memory):** 64 KB (system stack, heap, peripheral buffers, and inter-layer activation tensors share this single address space).
 
+![TinyML on Embedded Microcontrollers](/assets/tinyml-1.webp)
+*Figure: A quantized neural network deployed directly onto an ARM Cortex-M silicon die within a kilobyte memory footprint and milliwatt power envelope.*
+
 How can a neural network execute within these physical bounds? The solution lies in exploiting the **Harvard Architecture** and memory hierarchy down to the individual byte.
 
 Because trained weights and biases are immutable at inference time, they are declared `const` and mapped directly into the **Flash memory `.rodata` section**. The processor never copies weights into RAM; it streams them directly out of Flash via **eXecute-In-Place (XIP)** over internal memory buses. The precious **64 KB SRAM** is reserved exclusively for the dynamic input and output activation tensors of the current layer, managed via ping-pong buffering.

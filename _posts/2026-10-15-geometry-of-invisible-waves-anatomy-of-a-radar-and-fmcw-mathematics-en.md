@@ -37,6 +37,9 @@ This is why modern autonomous vehicles, industrial robots, and precision distanc
 
 The RF front-end and baseband signal chain of an FMCW radar represent an exquisite synthesis of microwave engineering and digital signal processing (DSP):
 
+![FMCW Radar Architecture and Millimeter-Wave Sweep](/assets/fmcw-radar-1.webp)
+*Figure: Millimeter-wave FMCW radar antenna array emitting linear frequency-modulated chirp waveforms across 3D space.*
+
 ```text
                   +-----------------------+
                   |    Chirp Synthesizer  |
@@ -222,6 +225,9 @@ A 1D-FFT is performed across every column ($M$ ADC samples within a chirp). Each
 For every range bin containing energy, a second 1D-FFT is executed across the rows (across all $N$ chirps in the burst). This computes the rate of phase rotation, resolving the target’s **Radial Velocity (Doppler Bin)**.
 
 The result is the **Range-Doppler Heatmap**:
+
+![2D Range-Doppler Spectrogram](/assets/fmcw-radar-2.webp)
+*Figure: Two-dimensional target range and radial velocity heat signature produced by fast-time and slow-time 2D-FFT processing.*
 
 ```text
 Doppler (Velocity) [m/s]

@@ -51,6 +51,9 @@ The most accurate conceptual model for CRISPR-Cas9 is an IDE’s **Find & Replac
 2. **PAM Sequence (Protospacer Adjacent Motif) — Permission Check:** Before the Cas9 endonuclease can bind and cleave the DNA, it requires a specific adjacent signature (such as `NGG`). This functions as a cryptographic checksum and permission token, preventing the bacterium from accidentally shredding its own CRISPR array.
 3. **Cas9 Endonuclease — The Molecular Scissors and Patcher:** Once the guide RNA hybridizes to the target sequence, Cas9 cleaves the double helix, inducing a **Double-Strand Break (DSB)**. By hijacking the cell’s endogenous repair pathways (NHEJ or HDR), engineers can either knock out a defective gene (*commenting it out*) or insert an exogenous synthetic DNA donor template as a **hot-patch**.
 
+![CRISPR and Synthetic Biology Logic Circuits](/assets/crispr-synthetic-biology-1.webp)
+*Figure: The CRISPR-Cas9 molecular complex performing high-fidelity DNA refactoring alongside biological logic gates.*
+
 ### Off-Target Effects: Biological Regression Bugs
 If you run a careless regex *Find & Replace* across a large enterprise codebase, you risk modifying identically named identifiers in unrelated microservices, introducing critical regression bugs. In biology, this is termed an **Off-Target Effect**.
 
